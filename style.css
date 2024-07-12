@@ -3,7 +3,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 :root{
@@ -12,7 +12,7 @@
 
 section{
   width: 80%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 /* Navber Design */
 
@@ -58,6 +58,7 @@ nav{
 .logo h3{
   font-size: 28px;
   color: white;
+  font-weight: 500;
 }
 
 .search{
@@ -125,14 +126,15 @@ Header{
 }
 
 .header_container h2{
-  font-size:2.8rem;
+  font-size: 3.5rem;
   color: white;
+  line-height: 1.2;
 }
 
 .header_container p{
   font-size: 13px;
   color: white;
-  margin: 12px 0;
+  margin-bottom: 15px;
   font-weight: 300;
 }
 
@@ -176,11 +178,6 @@ Header{
 .offer{
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
-}
-
-.offer_headline{
-  width: 40%;
 }
 
 .offer_headline p{
@@ -196,7 +193,7 @@ Header{
 
 .offer_deadline p{
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: 5px;
   color: rgb(73, 73, 73);
 }
 
@@ -207,11 +204,64 @@ Header{
 
 .offer_deadline{
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   align-items: center;
   text-align: center;
 }
 
-.offer_deadline img{
+/* .offer_deadline img{
   height: 25px;
+} */
+
+.offer_deadline i{
+  font-size: 14px;
+  color:rgb(73, 73, 73) ;
+}
+
+/* ------------------product section------------------- */
+
+.product_container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product{
+  text-align: center;
+  border: 1px solid #eeeaea;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.product img{
+  width: 125px;
+}
+
+.product hr{
+  color: #eeeaea;
+  border-top: none;
+}
+
+.product h4{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.product p{
+  font-size: 16px;
+  margin: 1rem 0;
+  color: #121212;
+}
+
+.product .review_stars{
+  margin-bottom: 20px;
+}
+
+.review_stars i{
+  color: #F85559;
+}
+
+.product a{
+  color: #F85559;
 }
