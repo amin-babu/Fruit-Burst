@@ -84,7 +84,7 @@ nav{
 
 Header{
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 200px;
   height: 75vh;
   display: flex;
   align-items: center;
@@ -96,18 +96,6 @@ Header{
   border-radius: 6px;
   position: relative;
   z-index: 5;
-  margin-bottom: 200px;
-  /* padding: 0 10%;
-  width: 100%;
-  height: 80vh;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url(images/banner1.png);
-  background-repeat: no-repeat;
-  box-sizing: border-box; */
 }
 
 .bg{
@@ -173,6 +161,37 @@ Header{
   font-weight: 400;
 }
 
+/* ------Silde Icons---------- */
+
+.slide_icon{
+  cursor: pointer;
+}
+
+.slide_left i{
+  width: 40px;
+  height: 40px;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 35px;
+}
+
+.slide_right {
+  width: 40px;
+  height: 40px;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 35px;
+}
 /* offer deadline */
 
 .offer{
@@ -277,4 +296,83 @@ Header{
   font-weight: 500;
   margin: 30px auto;
   display: block;
+}
+
+/* -------------------------team secction---------------------------- */
+
+.team{
+  margin: 100px auto;
+  width: 80%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(images/banner1.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 6px;
+  position: relative;
+  z-index: 50;
+}
+.team_member{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.team_headline{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.team_headline h2{
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.team_headline p{
+  font-size: 12px;
+  color: white;
+}
+
+.member img{
+  width: 140px;
+  margin: 10px 0;
+}
+
+.member h4{
+  margin: 2px 0;
+  color: white;
+}
+
+.member p{
+  font-size: 12px;
+  margin: 5px 0;
+  color: white;
+}
+
+.member .social li{
+  margin: 5px;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  color: white;
+  display: inline-flex;
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.bg2{
+  width: 100%;
+  height: inherit;
+  background-color: black;
+  position: absolute;
+  border-radius: 6px;
+  z-index: -2;
+  opacity: 60%;
 }
