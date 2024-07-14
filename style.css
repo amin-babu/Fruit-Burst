@@ -491,4 +491,49 @@ Header{
     font-size: 1rem;
     line-height: 1.8;
   }
+
+  .product_container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .product img{
+    width: 100%;
+  }
+
+  .team{
+    height: 1420px;
+  }
+
+  .bg2{
+    height: inherit;
+    opacity: 60%;
+  }
+
+  .team_member{
+    flex-direction: column;
+  }
+
+  .team_headline{
+    width: 80%;
+  }
+
+  .team_headline h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .team_headline p{
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .member h4{
+    font-size: 1.2rem;
+  }
+
+  .member p{
+    font-size: 14px;
+  }
 }
