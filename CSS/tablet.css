@@ -1,0 +1,98 @@
+@media screen and (max-width:1140px){
+  nav{
+    padding: 20px 5%;
+    width: 100%;
+  }
+
+
+  .nav_menu{
+    display: none;
+  }
+
+  .search input{
+    width: 100%;
+  }
+
+  Header{
+    width: 90%;
+    height: 400px;
+  }
+
+  .feature{
+    bottom: -240px;
+  }
+
+  .slide_left{
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    left: 15px;
+  }
+  
+  .slide_right{
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    right: 15px;
+  }
+
+  .header_container h2{
+    font-size: 3.2rem;
+  }
+
+  .header_container p{
+    font-size: 1.3rem;
+  }
+
+  .header_container button{
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  .feature{
+    width: 100%;
+  }
+
+  .offer{
+    margin-top: 300px;
+  }
+
+  section{
+    width: 90%;
+  }
+
+  .offer_headline{
+    width: 50%;
+  }
+
+  .offer_headline h2{
+    font-size: 1.8rem;
+  }
+
+  .offer_headline p > br{
+    display: none;
+  }
+
+  .offer_headline p{
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  .product_container{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .team_member{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .team{
+    width: 90%;
+    height: 690px;
+  }
+
+  .team_headline{
+    margin-top: 20px;
+  }
+}
