@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
 }
 
 :root{
@@ -18,6 +19,10 @@ section{
 
 nav{
   padding: 30px 10%;
+}
+
+.menu i{
+  display: none;
 }
 
 .nav_container{
@@ -167,7 +172,7 @@ Header{
   cursor: pointer;
 }
 
-.slide_left i{
+.slide_left {
   width: 40px;
   height: 40px;
   background-color: #121212;
@@ -375,4 +380,115 @@ Header{
   border-radius: 6px;
   z-index: -2;
   opacity: 60%;
+}
+
+@media screen and (max-width:480px) {
+  
+  nav{
+    padding: 20px 5%;
+  }
+  .nav_container{
+    background-color: transparent;
+    padding: 0;
+  }
+  .nav_menu{
+    display: none;
+  }
+
+  .search{
+    display: none;
+  }
+
+  .menu i{
+    display: block;
+    font-size: 22px;
+  }
+
+  .logo h3{
+    color: black;
+  }
+
+  header{
+    width: 90%;
+    height: 190px;
+    
+  }
+
+  .slide_left {
+    left: 12px;
+    font-size: 13px;
+    width: 28px;
+    height: 28px;
+  }
+  .slide_right {
+    right: 12px;
+    font-size: 13px;
+    width: 28px;
+    height: 28px;
+  }
+
+  .header_container{
+    position: static;
+  }
+
+  .header_container h2{
+    font-size: 1.6rem;
+  }
+
+  .header_container p{
+    font-size: 13px;
+    margin: 8px 0 10px;
+  }
+
+  .header_container button{
+    font-size: 12px;
+  }
+
+  .feature{
+    flex-direction: column;
+    top: 220px;
+    width: 100%;
+    height: 1380px;
+    margin: 0 auto;
+    padding: 0 10px;
+    gap: 10px;
+    border-radius: 12px;
+  }
+
+  .item{
+    padding: 15px 10px;
+    background-color: rgb(248, 246, 246);
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .item img{
+    width: 220px;
+  }
+
+  .item p{
+    font-size: 1.3rem;
+    margin: 7px 0;
+  }
+
+  .offer{
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: 1470px auto 0;
+    gap: 1rem;
+  }
+
+  .offer_headline h2{
+    font-size: 1.8rem;
+  }
+
+  .offer_headline p > br{
+    display: none;
+  }
+
+  .offer_headline p{
+    font-size: 1rem;
+    line-height: 1.8;
+  }
 }
