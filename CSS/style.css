@@ -389,6 +389,7 @@ Header{
   gap: 2.5rem;
   margin: 35px 0 70px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .items_icon img{
@@ -450,4 +451,43 @@ Header{
 
 .choose_right .items_box hr{
   margin-left: auto;
+}
+
+/* footer design */
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #121212;
+  color: white;
+  padding: 90px 0;
+}
+
+.footer_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  margin-bottom: 35px;
+}
+
+.footer_logo img{
+  width: 40px;
+}
+
+.footer_logo h3{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.footer_menu a{
+  color: white;
+  margin: 20px;
+  font-weight: 300;
+}
+
+.footer_icon img{
+  width: 330px;
+  margin-top: 40px;
 }

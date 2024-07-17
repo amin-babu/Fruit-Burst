@@ -2,6 +2,7 @@
 
   section{
     width: 90%;
+    margin: 0 auto;
   }
   
   nav{
@@ -137,6 +138,7 @@
   .team{
     width: 90%;
     height: 1420px;
+    margin: 100px auto 0;
   }
 
   .bg2{
@@ -169,5 +171,103 @@
 
   .member p{
     font-size: 14px;
+  }
+
+  .heading p br{
+    display: none;
+  }
+
+  .choose_container{
+    flex-direction: column;
+    margin: 0 0;
+    gap: 25px;
+  }
+
+  .items_box{
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: .6rem;
+  }
+
+  .items_box hr{
+    margin: 12px auto;
+    border-top: 1px solid #121212;
+    width: 40%;
+  }
+
+  .items_info h4{
+    font-size: 24px;
+  }
+
+  .items_info p{
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .item2{
+    order: -1;
+  }
+
+  .items_icon img{
+    width: 70px;
+  }
+
+  .heading{
+    width: 90%;
+    margin: 25px auto;
+  }
+
+  .heading h2{
+    font-size: 1.8rem;
+  }
+
+  .heading p{
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .center_img img{
+    max-width: 100%;
+  }
+
+  .choose_right{
+    margin-bottom: 25px;
+  }
+
+  .choose_right .items_box{
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: .6rem;
+  }
+
+  .choose_right .items_box hr{
+    margin: 10px auto;
+    border-top: 1px solid #121212;
+  }
+
+  .choose_right .items_icon img{
+    width: 70px;
+  }
+
+  footer{
+    padding: 30px 0;
+  }
+
+  .footer_menu a{
+   line-height: 2;
+   font-size: 17px;
+  }
+
+  .footer_icon img{
+    width: 280px;
+    margin-top: 20px;
+  }
+
+  .footer_logo{
+    margin-bottom: 25px;
   }
 }

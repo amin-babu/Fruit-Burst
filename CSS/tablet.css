@@ -1,4 +1,4 @@
-@media screen and (max-width:1140px){
+@media screen and (max-width:1050px){
   nav{
     padding: 20px 5%;
     width: 100%;
@@ -94,5 +94,29 @@
 
   .team_headline{
     margin-top: 20px;
+  }
+
+  footer{
+    padding: 40px 0;
+  }
+
+  .footer_logo{
+    margin-bottom: 30px;
+  }
+
+  .footer_icon img{
+    margin-top: 35px;
+  }
+
+  .footer_menu a{
+    margin: 15px;
+  }
+
+  .footer_logo img{
+    width: 50px;
+  }
+
+  .footer_logo h3{
+    font-size: 32px;
   }
 }
