@@ -382,3 +382,72 @@ Header{
   opacity: 60%;
 }
 
+/* ----------------Why Choose Us Section--------------- */
+
+.choose_container{
+  display: flex;
+  gap: 2.5rem;
+  margin: 35px 0 70px;
+  align-items: center;
+}
+
+.items_icon img{
+  width: 45px;
+}
+
+.choose_left{
+  display: grid;
+  gap: 1.3rem;
+}
+
+.choose_right{
+  display: grid;
+  gap: 1.3rem;
+}
+
+.center_img img{
+  max-width: 300px;
+}
+
+.heading{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading h2{
+  font-size: 2rem;
+}
+
+.heading p{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.items_box{
+  display: flex;
+  gap: 1rem;
+}
+
+.items_info h4{
+  font-size: 20px;
+}
+
+.items_info hr{
+  color: #121212;
+  margin: 7px 0;
+  width: 33%;
+}
+
+.items_info p{
+  font-size: 12px;
+}
+
+.choose_right .items_box{
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.choose_right .items_box hr{
+  margin-left: auto;
+}
